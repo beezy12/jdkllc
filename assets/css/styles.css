@@ -3,6 +3,21 @@ html, body {
     padding-top: 25px;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
+    background-color: #ecf0f2
+}
+
+/*div {
+    background-color: white;
+}*/
+
+.cmp {
+    background-color: white;
+}
+
+.blocky {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+
 }
 
 .header {
@@ -13,7 +28,8 @@ html, body {
     padding-top: 22px;
 }
 
-.navbar-nav>li>a:link { /* Essentially means a[href], or that the link actually goes somewhere */
+/*
+.navbar-nav>li>a:link {
   color: blue;
 }
 .navbar-nav>li>a:visited {
@@ -25,6 +41,9 @@ html, body {
 .navbar-nav>li>a:active {
   color: red;
 }
+*/
+
+
 
 .title {
     color: white;
@@ -42,7 +61,7 @@ html, body {
 }
 
 #mission {
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
 }
 
@@ -54,6 +73,16 @@ ul {
     list-style-type: none;
 }
 
+/*.founderBox {
+    background-color: #FAFAFA;
+    border: 5px solid #D4D8D9;
+}*/
+
+
+/*.content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+
 .parallax {
     background-image: url("../images/dirtroad.jpg");
     min-height: 520px;
@@ -61,6 +90,7 @@ ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .parallax2 {
@@ -70,6 +100,9 @@ ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-box-shadow: 0px -2px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -2px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -2px 14px 0px rgba(0,0,0,0.75);
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
@@ -79,6 +112,11 @@ ul {
     }
 }*/
 
-.footer {
-    margin-bottom: 200px;
+.contact {
+    margin: 100px 0 200px 0
 }
+
+
+/*.footer {
+    margin-bottom: 200px;
+}*/
