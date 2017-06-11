@@ -10,14 +10,6 @@ html, body {
     background-color: white;
 }*/
 
-.btn-success {
-    text-decoration: none;
-}
-
-.hidden {
-    display: none;
-}
-
 .cmp {
     background-color: white;
 }
@@ -26,36 +18,49 @@ html, body {
     margin-bottom: 30px;
     border: 1px solid #ddd;
     padding: 30px 15px;
+
+}
+
+.topTwo {
+    display: flex;
+}
+
+.driverBox {
+    flex: 4;
+    flex-grow: 2;
+}
+
+.contactBox {
+    flex: 1;
+    flex-grow: 2;
+    /*margin-left: 6%;*/
+    /*line-height: 2.9em;*/
+
+}
+
+@media all and (max-width: 600px) {
+    .driverBox {
+        flex: 1;
+    }
+
+    .contactBox {
+        flex: 0;
+    }
+
 }
 
 .header {
     background-color: black;
 }
 
-.navbar-nav>li>a {
-    padding-top: 22px;
+.navbar-inverse .navbar-nav>li>a {
+   /* padding-top: 22px;*/
+   color: white;
 }
 
 .room {
     margin-top: 30px;
 }
-
-/*
-.navbar-nav>li>a:link {
-  color: blue;
-}
-.navbar-nav>li>a:visited {
-  color: purple;
-}
-.navbar-nav>li>a:hover {
-  color: green;
-}
-.navbar-nav>li>a:active {
-  color: red;
-}
-*/
-
-
 
 .title {
     color: white;
@@ -73,7 +78,7 @@ html, body {
 }
 
 #mission {
-    font-size: 2.0em;
+    font-size: 1.6em;
     text-align: center;
 }
 
@@ -89,7 +94,9 @@ ul {
     /*margin: 0 0 100px 0*/
 }
 
-
+.final {
+    /*margin-bottom: 770px;*/
+}
 
 /*.content {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -107,7 +114,7 @@ ul {
 
 .parallax2 {
     background-image: url("../images/mercedes.jpg");
-    min-height: 520px;
+    min-height: 420px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -124,9 +131,7 @@ ul {
     }
 }*/
 
-.contact {
-    margin: 100px 0 200px 0
-}
+
 
 
 /*.footer {
