@@ -21,23 +21,46 @@ html, body {
 
 }
 
-.topTwo {
-    display: flex;
+.contactBox {
+    margin-left: 6%;
+    line-height: 2.9em;
 }
 
-.driverBox {
+.join {
+    line-height: 1.9em;
+    margin-top: 30px;
+}
+
+.arrow:before {
+    font-size: 3.0em;
+    margin-top: 20px;
+}
+
+
+.contact {
+    margin-top: 9px;
+}
+
+/*.topTwo {
+    display: flex;
+}*/
+
+
+
+/*.driverBox {
     flex: 4;
     flex-grow: 2;
 }
-
-.contactBox {
+*/
+/*.contactBox {
     flex: 1;
     flex-grow: 2;
-    /*margin-left: 6%;*/
-    /*line-height: 2.9em;*/
+    margin-left: 6%;
+    line-height: 2.9em;
 
-}
+}*/
 
+/*
 @media all and (max-width: 600px) {
     .driverBox {
         flex: 1;
@@ -47,7 +70,7 @@ html, body {
         flex: 0;
     }
 
-}
+}*/
 
 .header {
     background-color: black;
@@ -90,9 +113,6 @@ ul {
     list-style-type: none;
 }
 
-.contact {
-    /*margin: 0 0 100px 0*/
-}
 
 .final {
     /*margin-bottom: 770px;*/
