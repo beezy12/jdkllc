@@ -26,7 +26,6 @@ html, body {
     margin-bottom: 30px;
     border: 1px solid #ddd;
     padding: 30px 15px;
-
 }
 
 .header {
@@ -125,7 +124,9 @@ ul {
     }
 }*/
 
-
+.contact {
+    margin: 100px 0 200px 0
+}
 
 
 /*.footer {
