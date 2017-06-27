@@ -34,6 +34,13 @@ html, body {
     margin-top: 20px;
 }
 
+#truck {
+    float: left;
+}
+
+#wheel {
+    float: right;
+}
 
 .contact {
     margin-top: 40px;
@@ -46,6 +53,9 @@ html, body {
     padding: 0;
 }
 
+.driverBox {
+    background-color: black;
+}
 
 /*.topTwo {
     display: flex;
@@ -94,6 +104,15 @@ html, body {
 .title {
     color: white;
     margin-top: 10px;
+}
+
+.jobs {
+    background-color: black;
+    color: white;
+}
+
+.contactBox {
+    background-color: black;
 }
 
 .carousel {
@@ -149,6 +168,8 @@ ul {
     -moz-box-shadow: 0px -2px 14px 0px rgba(0,0,0,0.75);
     box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
 }
+
+
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 /*@media only screen and (max-device-width: 1024px) {
