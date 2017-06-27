@@ -1,9 +1,10 @@
 html, body {
     margin: 0;
     padding-top: 25px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
-    background-color: #ecf0f2
+    background-color: #ecf0f2;
+    letter-spacing: 1px;
 }
 
 /*div {
@@ -21,10 +22,7 @@ html, body {
 
 }
 
-.contactBox {
-    margin-left: 6%;
-    line-height: 2.9em;
-}
+
 
 .join {
     line-height: 1.9em;
@@ -38,8 +36,16 @@ html, body {
 
 
 .contact {
-    margin-top: 9px;
+    margin-top: 40px;
+    letter-spacing: 1px;
 }
+
+.contactBox {
+    margin-left: 6%;
+    line-height: 2.9em;
+    padding: 0;
+}
+
 
 /*.topTwo {
     display: flex;
@@ -129,7 +135,7 @@ ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .parallax2 {
